@@ -19,3 +19,12 @@ app.get("/archives", function (req, res) {
 
   res.end();
 });
+
+app.get("/comments", function (req, res) {
+  let comment = req.params.comments;
+
+  res.send("The comment section");
+  console.log(comment);
+
+  res.end();
+});
