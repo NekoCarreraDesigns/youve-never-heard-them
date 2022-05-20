@@ -1,13 +1,19 @@
 const express = require("express");
+const mongoose = require("mongoose");
 
 const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+// serve static assets on heroku
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
-app.listen(port, function () {
-  console.log("Server listening at: http://localhost:" + port);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/ynhot", {
+  useUnifiedTopology: true,
+  useNewUrlParser: true,
 });
 
 app.get("/", function (req, res) {
@@ -30,4 +36,8 @@ app.get("/comments", function (req, res) {
   console.log(comment);
 
   res.end();
+});
+
+app.listen(port, function () {
+  console.log(`Server listening at: http://localhost: ${port}`);
 });
