@@ -1,8 +1,8 @@
 const router = require("express").Router();
-const db = require("../models");
+const db = require("../models/archiveSchema");
 
 router.get("/archives", (req, res) => {
-  db.Archives.find({
+  db.Archive.find({
     title: { $regex: new RegExp(req.query.q, "i") },
   })
     .then((blogs) => res.json(blogs))
