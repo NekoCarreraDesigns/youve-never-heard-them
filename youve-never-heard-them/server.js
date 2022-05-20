@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 const app = express();
+const apiRoutes = require("./routes/api");
 const port = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
@@ -15,6 +16,8 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/ynhot", {
   useUnifiedTopology: true,
   useNewUrlParser: true,
 });
+
+app.use("/api", apiRoutes);
 
 app.get("/", function (req, res) {
   res.send("Welcome to the Music blog");
