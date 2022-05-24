@@ -17,6 +17,8 @@
     text-align: center;
     color: rgba(23, 200, 200, 0.5);
     text-decoration: underline;
+    letter-spacing: 1px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .second-page-header {
