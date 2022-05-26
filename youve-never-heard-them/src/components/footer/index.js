@@ -17,6 +17,11 @@ function Footer() {
           title='message icons'>
           Message icons created by Becris - Flaticon
         </a>
+        <a
+          href='https://www.flaticon.com/free-icons/dj-music'
+          title='dj music icons'>
+          Dj music icons created by Bima Pamungkas - Flaticon
+        </a>
       </div>
     </footer>
   );
