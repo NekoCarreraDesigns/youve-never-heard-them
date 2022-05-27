@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Navbar from "./components/navbar";
 import "./App.css";
@@ -8,6 +9,7 @@ function App() {
     <div className='App'>
       <Navbar />
       <Header />
+      <Footer />
     </div>
   );
 }
