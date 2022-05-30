@@ -1,6 +1,9 @@
-.page-footer {
+footer {
     background-color: rgba(123, 123, 123, 0.4);
+}
+
+.page-footer, .footer-link {
     font-style: italic;
     text-align: center;
-
+    color: rgba(255, 255, 0, 0.5);
 }
