@@ -1,3 +1,9 @@
 .main-header {
     color: rgba(23, 255, 250, 0.5);
 }
+
+.main-paragraph {
+   font-size: 24px;
+   color: rgba(23, 255, 250, 0.5);
+   font-family: 'Times New Roman', Times, serif;
+}
