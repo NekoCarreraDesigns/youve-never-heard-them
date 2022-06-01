@@ -23,7 +23,7 @@ function Main() {
         width={400}
         height={300}
         src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa_k3GhP7gEfb0TYMZYF5PBS7qjgeHqeM48A&usqp=CAU'></img>
-      <p>
+      <p className='main-paragraph'>
         Texas funky soul chill out music that should be enjoyed under the stars,
         with a lover snuggled up under a blanket
       </p>
