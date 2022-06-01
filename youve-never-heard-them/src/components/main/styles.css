@@ -1,9 +1,22 @@
-.main-header {
+.main-header, .main-rotation-header, .rotation-header {
     color: rgba(23, 255, 250, 0.5);
+}
+
+.main-rotation-header {
+    text-align: center;
 }
 
 .main-paragraph {
    font-size: 24px;
    color: rgba(23, 255, 250, 0.5);
    font-family: 'Times New Roman', Times, serif;
+}
+
+.rotation-section {
+    display: flex;
+}
+
+.rotation-artist {
+    flex: 25%;
+    padding: 100px;
 }
