@@ -33,17 +33,35 @@ function Main() {
           <h2 className='rotation-header'>Church of Misery</h2>
           <img
             alt='band'
-            height={400}
-            width={500}
+            height={200}
+            width={200}
             src='https://riseaboverecords.com/wp-content/uploads/Church-of-Misery-2013.jpg'></img>
         </div>
         <div className='rotation-artist'>
           <h2 className='rotation-header'>Khruangbin</h2>
           <img
             alt='band'
-            height={400}
-            width={500}
+            height={200}
+            width={200}
             src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1eZVcMkFOyhgPPvy18jkAOB4GS4dWW_aWkQ&usqp=CAU'></img>
+        </div>
+        <div className='rotation-artist'>
+          <h2 className='rotation-header'>An Autumn for Crippled Children</h2>
+          <img
+            alt='band'
+            height={200}
+            width={200}
+            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLM9p3X8xSwflUQNAWjdB7UF1tp2ACBOFiTw&usqp=CAU'></img>
+        </div>
+      </div>
+      <div className='rotation-section-1'>
+        <div className='rotation-artist'>
+          <h2 className='rotation-header'>1000mods</h2>
+          <img
+            alt='band'
+            width={200}
+            height={200}
+            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxBOjCYUb7YJM6KiORQvT8Pc7Ix1Au75vBGA&usqp=CAU'></img>
         </div>
       </div>
     </div>
