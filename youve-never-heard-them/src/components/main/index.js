@@ -38,12 +38,12 @@ function Main() {
             src='https://riseaboverecords.com/wp-content/uploads/Church-of-Misery-2013.jpg'></img>
         </div>
         <div className='rotation-artist'>
-          <h2 className='rotation-header'>Church of Misery</h2>
+          <h2 className='rotation-header'>Khruangbin</h2>
           <img
             alt='band'
             height={400}
             width={500}
-            src='https://riseaboverecords.com/wp-content/uploads/Church-of-Misery-2013.jpg'></img>
+            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1eZVcMkFOyhgPPvy18jkAOB4GS4dWW_aWkQ&usqp=CAU'></img>
         </div>
       </div>
     </div>
