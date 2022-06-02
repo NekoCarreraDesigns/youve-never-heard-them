@@ -12,11 +12,12 @@
    font-family: 'Times New Roman', Times, serif;
 }
 
-.rotation-section {
+.rotation-section, .rotation-section-1 {
     display: flex;
 }
 
 .rotation-artist {
     flex: 25%;
-    padding: 100px;
+    margin: 10px;
+    padding: 20px;
 }
