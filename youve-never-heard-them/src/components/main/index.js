@@ -80,6 +80,81 @@ function Main() {
             src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXUVaXWQBAjQJJIGjWDPOoKCh48VJTB8xLsQ&usqp=CAU'></img>
         </div>
       </div>
+      <h1 className='reviews-header'>Music Reviews</h1>
+      <div className='review-section'>
+        <div className='artist-review'>
+          <img
+            alt='artwork'
+            src='http://placehold.jp/150x150.png'
+            height={150}
+            width={150}></img>
+          <h3 className='artist-header'>Artist</h3>
+          <p className='review-paragraph'>Review</p>
+        </div>
+        <div className='artist-review'>
+          <img
+            alt='artwork'
+            src='http://placehold.jp/150x150.png'
+            height={150}
+            width={150}></img>
+          <h3 className='artist-header'>Artist</h3>
+          <p className='review-paragraph'>Review</p>
+        </div>
+        <div className='artist-review'>
+          <img
+            alt='artwork'
+            src='http://placehold.jp/150x150.png'
+            height={150}
+            width={150}></img>
+          <h3 className='artist-header'>Artist</h3>
+          <p className='review-paragraph'>Review</p>
+        </div>
+        <div className='artist-review'>
+          <img
+            alt='artwork'
+            src='http://placehold.jp/150x150.png'
+            height={150}
+            width={150}></img>
+          <h3 className='artist-header'>Artist</h3>
+          <p className='review-paragraph'>Review</p>
+        </div>
+        <div className='artist-review'>
+          <img
+            alt='artwork'
+            src='http://placehold.jp/150x150.png'
+            height={150}
+            width={150}></img>
+          <h3 className='artist-header'>Artist</h3>
+          <p className='review-paragraph'>Review</p>
+        </div>
+        <div className='artist-review'>
+          <img
+            alt='artwork'
+            src='http://placehold.jp/150x150.png'
+            height={150}
+            width={150}></img>
+          <h3 className='artist-header'>Artist</h3>
+          <p className='review-paragraph'>Review</p>
+        </div>
+        <div className='artist-review'>
+          <img
+            alt='artwork'
+            src='http://placehold.jp/150x150.png'
+            height={150}
+            width={150}></img>
+          <h3 className='artist-header'>Artist</h3>
+          <p className='review-paragraph'>Review</p>
+        </div>
+        <div className='artist-review'>
+          <img
+            alt='artwork'
+            src='http://placehold.jp/150x150.png'
+            height={150}
+            width={150}></img>
+          <h3 className='artist-header'>Artist</h3>
+          <p className='review-paragraph'>Review</p>
+        </div>
+      </div>
     </div>
   );
 }
