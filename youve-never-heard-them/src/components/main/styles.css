@@ -31,7 +31,7 @@
     padding: 10px;
 }
 
-.reviews-header {
+.reviews-header, .blog-header {
     color:rgba(23, 255, 250, 0.5);
     text-decoration: underline;
     text-decoration-color: rgba(155, 54, 255, 0.7);
