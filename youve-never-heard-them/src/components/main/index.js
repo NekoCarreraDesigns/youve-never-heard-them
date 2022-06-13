@@ -4,6 +4,7 @@ import "./styles.css";
 function Main() {
   return (
     <div>
+      {/* Featured artist section */}
       <h1 className='main-header'>Cave In</h1>
       <img
         className='main-image'
@@ -27,6 +28,7 @@ function Main() {
         Texas funky soul chill out music that should be enjoyed under the stars,
         with a lover snuggled up under a blanket
       </p>
+      {/* rotation section */}
       <h1 className='main-rotation-header'>Current Listening Rotation</h1>
       <div className='rotation-section'>
         <div className='rotation-artist'>
@@ -80,6 +82,7 @@ function Main() {
             src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXUVaXWQBAjQJJIGjWDPOoKCh48VJTB8xLsQ&usqp=CAU'></img>
         </div>
       </div>
+      {/* review section */}
       <h1 className='reviews-header'>Music Reviews</h1>
       <div className='review-section'>
         <div className='artist-review'>
@@ -160,6 +163,7 @@ function Main() {
           <p className='review-paragraph'>Review</p>
         </div>
       </div>
+      <h1 className='blog-header'>Modern Hip-Hop is hot Trash</h1>
     </div>
   );
 }
