@@ -36,3 +36,9 @@
     text-decoration: underline;
     text-decoration-color: rgba(155, 54, 255, 0.7);
 }
+
+.review-paragraph {
+    column-count: 1;
+    column-width: 20px;
+    column-rule: 10px;
+}
