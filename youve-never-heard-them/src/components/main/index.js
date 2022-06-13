@@ -89,7 +89,10 @@ function Main() {
             height={150}
             width={150}></img>
           <h3 className='artist-header'>Artist</h3>
-          <p className='review-paragraph'>Review</p>
+          <p className='review-paragraph'>
+            Review for an artist that is mediocre at best, they don;t really
+            light a fire under me
+          </p>
         </div>
         <div className='artist-review'>
           <img
@@ -98,7 +101,9 @@ function Main() {
             height={150}
             width={150}></img>
           <h3 className='artist-header'>Artist</h3>
-          <p className='review-paragraph'>Review</p>
+          <p className='review-paragraph'>
+            Review for an artist that is decent but flopped on this one
+          </p>
         </div>
         <div className='artist-review'>
           <img
@@ -107,7 +112,7 @@ function Main() {
             height={150}
             width={150}></img>
           <h3 className='artist-header'>Artist</h3>
-          <p className='review-paragraph'>Review</p>
+          <p className='review-paragraph'>Review for an artist </p>
         </div>
         <div className='artist-review'>
           <img
